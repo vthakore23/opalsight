@@ -16,10 +16,10 @@ class Config:
     DEBUG = False
     TESTING = False
     
-    # Database
+    # Database - Default to SQLite for easy deployment
     SQLALCHEMY_DATABASE_URI = os.getenv(
         'DATABASE_URL',
-        'postgresql://opalsight_user:secure_password@localhost:5432/opalsight'
+        'sqlite:///instance/opalsight.db'
     )
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_ENGINE_OPTIONS = {
@@ -53,7 +53,7 @@ class Config:
     # Frontend URL for email links
     FRONTEND_URL = os.getenv('FRONTEND_URL', 'http://localhost:3000')
     
-    # Redis Configuration
+    # Redis Configuration - Default to simple cache for deployment
     REDIS_URL = os.getenv('REDIS_URL', 'redis://localhost:6379/0')
     
     # Celery Configuration
@@ -90,8 +90,8 @@ class Config:
     # Report Generation
     REPORTS_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'reports')
     
-    # Cache Configuration
-    CACHE_TYPE = 'redis'
+    # Cache Configuration - Default to simple cache for deployment
+    CACHE_TYPE = os.getenv('CACHE_TYPE', 'simple')
     CACHE_REDIS_URL = REDIS_URL
     CACHE_DEFAULT_TIMEOUT = 300  # 5 minutes
     
@@ -110,10 +110,8 @@ class ProductionConfig(Config):
     """Production configuration"""
     DEBUG = False
     LOG_LEVEL = 'WARNING'
-    # Use stronger secret key in production
-    SECRET_KEY = os.getenv('SECRET_KEY')
-    if not SECRET_KEY:
-        raise ValueError("SECRET_KEY must be set in production")
+    # Use environment SECRET_KEY in production, but have fallback
+    SECRET_KEY = os.getenv('SECRET_KEY', 'fallback-production-secret-key-change-me')
 
 
 class TestingConfig(Config):

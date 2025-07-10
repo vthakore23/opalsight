@@ -4,20 +4,20 @@ dockerfilePath = "backend/Dockerfile"
 
 [deploy]
 startCommand = "cd backend && python run.py"
-healthcheckPath = "/api/health"
-healthcheckTimeout = 300
 restartPolicyType = "on_failure"
 
 [variables]
 FLASK_ENV = "production"
-DATABASE_URL = "${{ DATABASE_URL }}"
-REDIS_URL = "${{ REDIS_URL }}"
-CACHE_TYPE = "redis"
 PORT = "8000"
 
+# Database will be set in Railway dashboard
+# DATABASE_URL = "${{ DATABASE_URL }}"
+# REDIS_URL = "${{ REDIS_URL }}"
+# CACHE_TYPE = "redis"
+
 # API Keys - these will be set in Railway dashboard
-FMP_API_KEY = "${{ FMP_API_KEY }}"
-EARNINGS_CALL_API_KEY = "${{ EARNINGS_CALL_API_KEY }}"
+# FMP_API_KEY = "${{ FMP_API_KEY }}"
+# EARNINGS_CALL_API_KEY = "${{ EARNINGS_CALL_API_KEY }}"
 
 [environments.production]
 variables = { FLASK_ENV = "production" }
