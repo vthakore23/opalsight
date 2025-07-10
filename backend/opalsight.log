@@ -1,0 +1,990 @@
+2025-07-03 15:21:39,129 - app.services.cache_service - WARNING - Cache service disabled: 'Config' object has no attribute 'REDIS_HOST'
+2025-07-03 15:22:18,024 - app.services.cache_service - WARNING - Cache service disabled: 'Config' object has no attribute 'REDIS_HOST'
+2025-07-03 15:36:45,630 - app.services.cache_service - WARNING - Cache service disabled: Redis.__init__() got an unexpected keyword argument 'url'
+2025-07-03 15:37:03,429 - app.services.cache_service - WARNING - Cache service disabled: Redis.__init__() got an unexpected keyword argument 'url'
+2025-07-03 15:37:03,499 - app.services.cache_service - WARNING - Cache service disabled: Redis.__init__() got an unexpected keyword argument 'url'
+2025-07-03 15:37:03,532 - app.services.cache_service - WARNING - Cache service disabled: Redis.__init__() got an unexpected keyword argument 'url'
+2025-07-03 15:37:03,600 - app.services.cache_service - WARNING - Cache service disabled: Redis.__init__() got an unexpected keyword argument 'url'
+2025-07-03 15:39:06,754 - app.services.cache_service - WARNING - Cache service disabled: Redis.__init__() got an unexpected keyword argument 'url'
+2025-07-03 15:39:06,754 - app.services.cache_service - WARNING - Cache service disabled: Redis.__init__() got an unexpected keyword argument 'url'
+2025-07-03 15:39:06,755 - app.services.cache_service - WARNING - Cache service disabled: Redis.__init__() got an unexpected keyword argument 'url'
+2025-07-03 15:39:06,755 - app.services.cache_service - WARNING - Cache service disabled: Redis.__init__() got an unexpected keyword argument 'url'
+2025-07-03 15:39:49,121 - app.services.cache_service - WARNING - Cache service disabled: Error 111 connecting to localhost:6379. Connection refused.
+2025-07-03 15:39:49,126 - app.services.cache_service - WARNING - Cache service disabled: Error 111 connecting to localhost:6379. Connection refused.
+2025-07-03 15:39:49,158 - app.services.cache_service - WARNING - Cache service disabled: Error 111 connecting to localhost:6379. Connection refused.
+2025-07-03 15:39:49,214 - app.services.cache_service - WARNING - Cache service disabled: Error 111 connecting to localhost:6379. Connection refused.
+2025-07-03 15:51:00,323 - app - INFO - OpalSight application initialized with development configuration
+2025-07-03 15:51:03,515 - app.services.cache_service - INFO - Cache service initialized successfully
+2025-07-03 15:51:03,521 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-03 15:51:03,701 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-03 15:51:03,725 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-03 15:51:03,726 - filelock - DEBUG - Attempting to acquire lock 281472090611664 on /home/opalsight/.cache/huggingface/hub/.locks/models--ProsusAI--finbert/cd79adc84d3c96daa03456853766c63141aef734.lock
+2025-07-03 15:51:03,726 - filelock - DEBUG - Lock 281472090611664 acquired on /home/opalsight/.cache/huggingface/hub/.locks/models--ProsusAI--finbert/cd79adc84d3c96daa03456853766c63141aef734.lock
+2025-07-03 15:51:03,747 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 252
+2025-07-03 15:51:03,749 - filelock - DEBUG - Attempting to release lock 281472090611664 on /home/opalsight/.cache/huggingface/hub/.locks/models--ProsusAI--finbert/cd79adc84d3c96daa03456853766c63141aef734.lock
+2025-07-03 15:51:03,749 - filelock - DEBUG - Lock 281472090611664 released on /home/opalsight/.cache/huggingface/hub/.locks/models--ProsusAI--finbert/cd79adc84d3c96daa03456853766c63141aef734.lock
+2025-07-03 15:51:03,791 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-03 15:51:03,819 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-03 15:51:03,820 - filelock - DEBUG - Attempting to acquire lock 281472085213072 on /home/opalsight/.cache/huggingface/hub/.locks/models--ProsusAI--finbert/e3d6323dc93e170f3eef66cebb32dbaf4589aee0.lock
+2025-07-03 15:51:03,820 - filelock - DEBUG - Lock 281472085213072 acquired on /home/opalsight/.cache/huggingface/hub/.locks/models--ProsusAI--finbert/e3d6323dc93e170f3eef66cebb32dbaf4589aee0.lock
+2025-07-03 15:51:03,843 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 758
+2025-07-03 15:51:03,844 - filelock - DEBUG - Attempting to release lock 281472085213072 on /home/opalsight/.cache/huggingface/hub/.locks/models--ProsusAI--finbert/e3d6323dc93e170f3eef66cebb32dbaf4589aee0.lock
+2025-07-03 15:51:03,844 - filelock - DEBUG - Lock 281472085213072 released on /home/opalsight/.cache/huggingface/hub/.locks/models--ProsusAI--finbert/e3d6323dc93e170f3eef66cebb32dbaf4589aee0.lock
+2025-07-03 15:51:03,887 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/vocab.txt HTTP/1.1" 307 0
+2025-07-03 15:51:03,911 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/vocab.txt HTTP/1.1" 200 0
+2025-07-03 15:51:03,912 - filelock - DEBUG - Attempting to acquire lock 281472085206096 on /home/opalsight/.cache/huggingface/hub/.locks/models--ProsusAI--finbert/fb140275c155a9c7c5a3b3e0e77a9e839594a938.lock
+2025-07-03 15:51:03,912 - filelock - DEBUG - Lock 281472085206096 acquired on /home/opalsight/.cache/huggingface/hub/.locks/models--ProsusAI--finbert/fb140275c155a9c7c5a3b3e0e77a9e839594a938.lock
+2025-07-03 15:51:03,935 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/vocab.txt HTTP/1.1" 200 None
+2025-07-03 15:51:03,968 - filelock - DEBUG - Attempting to release lock 281472085206096 on /home/opalsight/.cache/huggingface/hub/.locks/models--ProsusAI--finbert/fb140275c155a9c7c5a3b3e0e77a9e839594a938.lock
+2025-07-03 15:51:03,968 - filelock - DEBUG - Lock 281472085206096 released on /home/opalsight/.cache/huggingface/hub/.locks/models--ProsusAI--finbert/fb140275c155a9c7c5a3b3e0e77a9e839594a938.lock
+2025-07-03 15:51:04,015 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer.json HTTP/1.1" 404 0
+2025-07-03 15:51:04,064 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/added_tokens.json HTTP/1.1" 404 0
+2025-07-03 15:51:04,111 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/special_tokens_map.json HTTP/1.1" 307 0
+2025-07-03 15:51:04,138 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/special_tokens_map.json HTTP/1.1" 200 0
+2025-07-03 15:51:04,139 - filelock - DEBUG - Attempting to acquire lock 281472085204944 on /home/opalsight/.cache/huggingface/hub/.locks/models--ProsusAI--finbert/e7b0375001f109a6b8873d756ad4f7bbb15fbaa5.lock
+2025-07-03 15:51:04,139 - filelock - DEBUG - Lock 281472085204944 acquired on /home/opalsight/.cache/huggingface/hub/.locks/models--ProsusAI--finbert/e7b0375001f109a6b8873d756ad4f7bbb15fbaa5.lock
+2025-07-03 15:51:04,164 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/special_tokens_map.json HTTP/1.1" 200 112
+2025-07-03 15:51:04,165 - filelock - DEBUG - Attempting to release lock 281472085204944 on /home/opalsight/.cache/huggingface/hub/.locks/models--ProsusAI--finbert/e7b0375001f109a6b8873d756ad4f7bbb15fbaa5.lock
+2025-07-03 15:51:04,165 - filelock - DEBUG - Lock 281472085204944 released on /home/opalsight/.cache/huggingface/hub/.locks/models--ProsusAI--finbert/e7b0375001f109a6b8873d756ad4f7bbb15fbaa5.lock
+2025-07-03 15:51:04,251 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-03 15:51:04,268 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-03 15:51:04,368 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/model.safetensors HTTP/1.1" 404 0
+2025-07-03 15:51:04,413 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/model.safetensors.index.json HTTP/1.1" 404 0
+2025-07-03 15:51:04,462 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/pytorch_model.bin HTTP/1.1" 302 0
+2025-07-03 15:51:04,464 - filelock - DEBUG - Attempting to acquire lock 281472073480592 on /home/opalsight/.cache/huggingface/hub/.locks/models--ProsusAI--finbert/e15a7b5738df7f17553399b6d94c6e2ff69c89245d066e8e5d183f5803a554e3.lock
+2025-07-03 15:51:04,464 - filelock - DEBUG - Lock 281472073480592 acquired on /home/opalsight/.cache/huggingface/hub/.locks/models--ProsusAI--finbert/e15a7b5738df7f17553399b6d94c6e2ff69c89245d066e8e5d183f5803a554e3.lock
+2025-07-03 15:51:04,517 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/ProsusAI/finbert/xet-read-token/4556d13015211d73dccd3fdd39d39232506f3e43 HTTP/1.1" 200 325
+2025-07-03 15:51:52,657 - filelock - DEBUG - Attempting to release lock 281472073480592 on /home/opalsight/.cache/huggingface/hub/.locks/models--ProsusAI--finbert/e15a7b5738df7f17553399b6d94c6e2ff69c89245d066e8e5d183f5803a554e3.lock
+2025-07-03 15:51:52,659 - filelock - DEBUG - Lock 281472073480592 released on /home/opalsight/.cache/huggingface/hub/.locks/models--ProsusAI--finbert/e15a7b5738df7f17553399b6d94c6e2ff69c89245d066e8e5d183f5803a554e3.lock
+2025-07-03 15:51:55,987 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-03 15:51:56,894 - app - INFO - OpalSight application initialized with development configuration
+2025-07-03 15:51:59,654 - app.services.cache_service - INFO - Cache service initialized successfully
+2025-07-03 15:51:59,658 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-03 15:51:59,817 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-03 15:51:59,838 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-03 15:51:59,933 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-03 15:51:59,953 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-03 15:52:02,985 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-03 15:52:03,240 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 00:12:45,091 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:13:11,851 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:13:11,856 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:13:11,858 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:13:11,858 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:13:11,943 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:13:11,946 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:13:12,437 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:13:12,586 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:14:55,619 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:14:59,646 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:14:59,650 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:14:59,651 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:14:59,652 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:14:59,708 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:14:59,711 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:15:00,030 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:15:00,074 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:15:00,140 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:15:00,232 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:15:00,257 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:15:00,341 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:15:00,368 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:15:01,507 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:15:05,534 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:15:09,720 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:15:09,724 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:15:09,725 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:15:09,726 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:15:09,786 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:15:09,789 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:15:10,166 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:15:10,242 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:15:10,270 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:15:10,604 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:15:10,747 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:15:10,958 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:15:11,104 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:15:12,078 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:16:05,203 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:16:08,633 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:16:08,640 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:16:08,642 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:16:08,642 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:16:08,710 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:16:08,712 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:16:08,996 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:16:09,169 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:16:09,194 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:16:09,281 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:16:09,302 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:16:09,384 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:16:09,403 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:16:10,494 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:19:31,323 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:19:34,962 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:19:34,968 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:19:34,969 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:19:34,970 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:19:35,027 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:19:35,030 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:19:35,394 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:19:35,446 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:19:35,588 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:19:35,683 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:19:35,701 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:19:35,830 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:19:35,855 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:19:37,067 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:19:57,345 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:20:00,880 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:20:00,887 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:20:00,889 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:20:00,889 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:20:00,949 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:20:00,951 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:20:01,201 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:20:01,366 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:20:01,389 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:20:01,523 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:20:01,547 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:20:01,652 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:20:01,673 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:20:02,670 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:20:03,578 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:20:06,912 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:20:06,920 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:20:06,921 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:20:06,922 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:20:06,982 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:20:06,984 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:20:07,223 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:20:07,395 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:20:07,420 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:20:07,525 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:20:07,551 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:20:07,643 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:20:07,671 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:20:08,815 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:20:09,201 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 00:24:08,675 - app.api.routes - ERROR - Dashboard error: (sqlite3.OperationalError) misuse of aggregate function max()
+[SQL: SELECT companies.id AS companies_id, companies.ticker AS companies_ticker, companies.name AS companies_name, companies.market_cap AS companies_market_cap, companies.sector AS companies_sector, companies.industry AS companies_industry, companies.exchange AS companies_exchange, companies.fmp_has_transcripts AS companies_fmp_has_transcripts, companies.earnings_call_has_transcripts AS companies_earnings_call_has_transcripts, companies.transcript_count AS companies_transcript_count, companies.last_updated AS companies_last_updated, companies.created_at AS companies_created_at, trend_analysis.id AS trend_analysis_id, trend_analysis.company_id AS trend_analysis_company_id, trend_analysis.analysis_date AS trend_analysis_analysis_date, trend_analysis.trend_category AS trend_analysis_trend_category, trend_analysis.sentiment_change AS trend_analysis_sentiment_change, trend_analysis.confidence_change AS trend_analysis_confidence_change, trend_analysis.key_changes AS trend_analysis_key_changes, trend_analysis.notable_quotes AS trend_analysis_notable_quotes, trend_analysis.comparison_window AS trend_analysis_comparison_window, trend_analysis.created_at AS trend_analysis_created_at 
+FROM companies JOIN trend_analysis ON companies.id = trend_analysis.company_id 
+WHERE trend_analysis.analysis_date = max(trend_analysis.analysis_date) AND abs(trend_analysis.sentiment_change) > ? ORDER BY abs(trend_analysis.sentiment_change) DESC
+ LIMIT ? OFFSET ?]
+[parameters: (0.2, 10, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-10 00:24:15,241 - app.api.routes - ERROR - Dashboard error: (sqlite3.OperationalError) misuse of aggregate function max()
+[SQL: SELECT companies.id AS companies_id, companies.ticker AS companies_ticker, companies.name AS companies_name, companies.market_cap AS companies_market_cap, companies.sector AS companies_sector, companies.industry AS companies_industry, companies.exchange AS companies_exchange, companies.fmp_has_transcripts AS companies_fmp_has_transcripts, companies.earnings_call_has_transcripts AS companies_earnings_call_has_transcripts, companies.transcript_count AS companies_transcript_count, companies.last_updated AS companies_last_updated, companies.created_at AS companies_created_at, trend_analysis.id AS trend_analysis_id, trend_analysis.company_id AS trend_analysis_company_id, trend_analysis.analysis_date AS trend_analysis_analysis_date, trend_analysis.trend_category AS trend_analysis_trend_category, trend_analysis.sentiment_change AS trend_analysis_sentiment_change, trend_analysis.confidence_change AS trend_analysis_confidence_change, trend_analysis.key_changes AS trend_analysis_key_changes, trend_analysis.notable_quotes AS trend_analysis_notable_quotes, trend_analysis.comparison_window AS trend_analysis_comparison_window, trend_analysis.created_at AS trend_analysis_created_at 
+FROM companies JOIN trend_analysis ON companies.id = trend_analysis.company_id 
+WHERE trend_analysis.analysis_date = max(trend_analysis.analysis_date) AND abs(trend_analysis.sentiment_change) > ? ORDER BY abs(trend_analysis.sentiment_change) DESC
+ LIMIT ? OFFSET ?]
+[parameters: (0.2, 10, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-10 00:24:18,312 - app.api.routes - ERROR - Get watchlist error: Join target, typically a FROM expression, or ORM relationship attribute expected, got 'company'.
+2025-07-10 00:24:19,317 - app.api.routes - ERROR - Get watchlist error: Join target, typically a FROM expression, or ORM relationship attribute expected, got 'company'.
+2025-07-10 00:24:27,886 - app.api.routes - ERROR - Dashboard error: (sqlite3.OperationalError) misuse of aggregate function max()
+[SQL: SELECT companies.id AS companies_id, companies.ticker AS companies_ticker, companies.name AS companies_name, companies.market_cap AS companies_market_cap, companies.sector AS companies_sector, companies.industry AS companies_industry, companies.exchange AS companies_exchange, companies.fmp_has_transcripts AS companies_fmp_has_transcripts, companies.earnings_call_has_transcripts AS companies_earnings_call_has_transcripts, companies.transcript_count AS companies_transcript_count, companies.last_updated AS companies_last_updated, companies.created_at AS companies_created_at, trend_analysis.id AS trend_analysis_id, trend_analysis.company_id AS trend_analysis_company_id, trend_analysis.analysis_date AS trend_analysis_analysis_date, trend_analysis.trend_category AS trend_analysis_trend_category, trend_analysis.sentiment_change AS trend_analysis_sentiment_change, trend_analysis.confidence_change AS trend_analysis_confidence_change, trend_analysis.key_changes AS trend_analysis_key_changes, trend_analysis.notable_quotes AS trend_analysis_notable_quotes, trend_analysis.comparison_window AS trend_analysis_comparison_window, trend_analysis.created_at AS trend_analysis_created_at 
+FROM companies JOIN trend_analysis ON companies.id = trend_analysis.company_id 
+WHERE trend_analysis.analysis_date = max(trend_analysis.analysis_date) AND abs(trend_analysis.sentiment_change) > ? ORDER BY abs(trend_analysis.sentiment_change) DESC
+ LIMIT ? OFFSET ?]
+[parameters: (0.2, 10, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-10 00:24:28,892 - app.api.routes - ERROR - Dashboard error: (sqlite3.OperationalError) misuse of aggregate function max()
+[SQL: SELECT companies.id AS companies_id, companies.ticker AS companies_ticker, companies.name AS companies_name, companies.market_cap AS companies_market_cap, companies.sector AS companies_sector, companies.industry AS companies_industry, companies.exchange AS companies_exchange, companies.fmp_has_transcripts AS companies_fmp_has_transcripts, companies.earnings_call_has_transcripts AS companies_earnings_call_has_transcripts, companies.transcript_count AS companies_transcript_count, companies.last_updated AS companies_last_updated, companies.created_at AS companies_created_at, trend_analysis.id AS trend_analysis_id, trend_analysis.company_id AS trend_analysis_company_id, trend_analysis.analysis_date AS trend_analysis_analysis_date, trend_analysis.trend_category AS trend_analysis_trend_category, trend_analysis.sentiment_change AS trend_analysis_sentiment_change, trend_analysis.confidence_change AS trend_analysis_confidence_change, trend_analysis.key_changes AS trend_analysis_key_changes, trend_analysis.notable_quotes AS trend_analysis_notable_quotes, trend_analysis.comparison_window AS trend_analysis_comparison_window, trend_analysis.created_at AS trend_analysis_created_at 
+FROM companies JOIN trend_analysis ON companies.id = trend_analysis.company_id 
+WHERE trend_analysis.analysis_date = max(trend_analysis.analysis_date) AND abs(trend_analysis.sentiment_change) > ? ORDER BY abs(trend_analysis.sentiment_change) DESC
+ LIMIT ? OFFSET ?]
+[parameters: (0.2, 10, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-10 00:24:58,978 - app.api.routes - ERROR - Get watchlist error: Join target, typically a FROM expression, or ORM relationship attribute expected, got 'company'.
+2025-07-10 00:24:59,984 - app.api.routes - ERROR - Get watchlist error: Join target, typically a FROM expression, or ORM relationship attribute expected, got 'company'.
+2025-07-10 00:29:55,437 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:29:58,748 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:29:58,755 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:29:58,756 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:29:58,756 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:29:58,814 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:29:58,816 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:29:59,047 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:29:59,210 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:29:59,250 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:29:59,339 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:29:59,359 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:29:59,453 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:29:59,473 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:30:00,568 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:33:33,208 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:33:36,446 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:33:36,451 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:33:36,453 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:33:36,453 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:33:36,506 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:33:36,508 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:33:36,744 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:33:36,918 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:33:36,969 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:33:37,062 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:33:37,088 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:33:37,165 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:33:37,184 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:33:38,349 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:33:38,735 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 00:35:48,126 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:35:51,252 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:35:51,258 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:35:51,259 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:35:51,260 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:35:51,312 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:35:51,314 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:35:51,547 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:35:51,718 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:35:51,754 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:35:51,843 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:35:51,874 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:35:51,951 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:35:51,970 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:35:53,135 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:35:53,520 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 00:45:57,013 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:46:00,603 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:46:00,611 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:46:00,612 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:46:00,613 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:46:00,672 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:46:00,674 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:46:00,910 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:46:01,076 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:46:01,119 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:46:01,225 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:46:01,249 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:46:01,333 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:46:01,352 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:46:02,464 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:46:15,322 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:46:18,691 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/.venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:46:18,698 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:46:18,699 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:46:18,699 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:46:18,755 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:46:18,757 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:46:19,027 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:46:19,176 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:46:19,198 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:46:19,286 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:46:19,309 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:46:19,390 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:46:19,415 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:46:20,488 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:46:45,156 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:46:48,599 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:46:48,606 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:46:48,608 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:46:48,608 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:46:48,666 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:46:48,668 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:46:48,940 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:46:49,117 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:46:49,143 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:46:49,232 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:46:49,257 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:46:49,343 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:46:49,364 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:46:50,390 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:46:51,370 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:46:54,723 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:46:54,731 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:46:54,732 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:46:54,733 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:46:54,792 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:46:54,794 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:46:55,043 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:46:55,207 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:46:55,249 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:46:55,345 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:46:55,367 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:46:55,442 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:46:55,460 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:46:56,429 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:46:56,795 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 00:47:07,586 - app.api.routes - ERROR - Dashboard error: (sqlite3.OperationalError) misuse of aggregate function max()
+[SQL: SELECT companies.id AS companies_id, companies.ticker AS companies_ticker, companies.name AS companies_name, companies.market_cap AS companies_market_cap, companies.sector AS companies_sector, companies.industry AS companies_industry, companies.exchange AS companies_exchange, companies.fmp_has_transcripts AS companies_fmp_has_transcripts, companies.earnings_call_has_transcripts AS companies_earnings_call_has_transcripts, companies.transcript_count AS companies_transcript_count, companies.last_updated AS companies_last_updated, companies.created_at AS companies_created_at, trend_analysis.id AS trend_analysis_id, trend_analysis.company_id AS trend_analysis_company_id, trend_analysis.analysis_date AS trend_analysis_analysis_date, trend_analysis.trend_category AS trend_analysis_trend_category, trend_analysis.sentiment_change AS trend_analysis_sentiment_change, trend_analysis.confidence_change AS trend_analysis_confidence_change, trend_analysis.key_changes AS trend_analysis_key_changes, trend_analysis.notable_quotes AS trend_analysis_notable_quotes, trend_analysis.comparison_window AS trend_analysis_comparison_window, trend_analysis.created_at AS trend_analysis_created_at 
+FROM companies JOIN trend_analysis ON companies.id = trend_analysis.company_id 
+WHERE trend_analysis.analysis_date = max(trend_analysis.analysis_date) AND abs(trend_analysis.sentiment_change) > ? ORDER BY abs(trend_analysis.sentiment_change) DESC
+ LIMIT ? OFFSET ?]
+[parameters: (0.2, 10, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-10 00:47:15,981 - app.api.routes - ERROR - Get watchlist error: Join target, typically a FROM expression, or ORM relationship attribute expected, got 'company'.
+2025-07-10 00:48:35,459 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:48:38,605 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:48:38,612 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:48:38,613 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:48:38,613 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:48:38,672 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:48:38,674 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:48:38,904 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:48:39,059 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:48:39,097 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:48:39,183 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:48:39,205 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:48:39,278 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:48:39,296 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:48:40,428 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:49:09,082 - app.api.routes - ERROR - Dashboard error: (sqlite3.OperationalError) misuse of aggregate function max()
+[SQL: SELECT companies.id AS companies_id, companies.ticker AS companies_ticker, companies.name AS companies_name, companies.market_cap AS companies_market_cap, companies.sector AS companies_sector, companies.industry AS companies_industry, companies.exchange AS companies_exchange, companies.fmp_has_transcripts AS companies_fmp_has_transcripts, companies.earnings_call_has_transcripts AS companies_earnings_call_has_transcripts, companies.transcript_count AS companies_transcript_count, companies.last_updated AS companies_last_updated, companies.created_at AS companies_created_at, trend_analysis.id AS trend_analysis_id, trend_analysis.company_id AS trend_analysis_company_id, trend_analysis.analysis_date AS trend_analysis_analysis_date, trend_analysis.trend_category AS trend_analysis_trend_category, trend_analysis.sentiment_change AS trend_analysis_sentiment_change, trend_analysis.confidence_change AS trend_analysis_confidence_change, trend_analysis.key_changes AS trend_analysis_key_changes, trend_analysis.notable_quotes AS trend_analysis_notable_quotes, trend_analysis.comparison_window AS trend_analysis_comparison_window, trend_analysis.created_at AS trend_analysis_created_at 
+FROM companies JOIN trend_analysis ON companies.id = trend_analysis.company_id 
+WHERE trend_analysis.analysis_date = max(trend_analysis.analysis_date) AND abs(trend_analysis.sentiment_change) > ? ORDER BY abs(trend_analysis.sentiment_change) DESC
+ LIMIT ? OFFSET ?]
+[parameters: (0.2, 10, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-10 00:49:10,089 - app.api.routes - ERROR - Dashboard error: (sqlite3.OperationalError) misuse of aggregate function max()
+[SQL: SELECT companies.id AS companies_id, companies.ticker AS companies_ticker, companies.name AS companies_name, companies.market_cap AS companies_market_cap, companies.sector AS companies_sector, companies.industry AS companies_industry, companies.exchange AS companies_exchange, companies.fmp_has_transcripts AS companies_fmp_has_transcripts, companies.earnings_call_has_transcripts AS companies_earnings_call_has_transcripts, companies.transcript_count AS companies_transcript_count, companies.last_updated AS companies_last_updated, companies.created_at AS companies_created_at, trend_analysis.id AS trend_analysis_id, trend_analysis.company_id AS trend_analysis_company_id, trend_analysis.analysis_date AS trend_analysis_analysis_date, trend_analysis.trend_category AS trend_analysis_trend_category, trend_analysis.sentiment_change AS trend_analysis_sentiment_change, trend_analysis.confidence_change AS trend_analysis_confidence_change, trend_analysis.key_changes AS trend_analysis_key_changes, trend_analysis.notable_quotes AS trend_analysis_notable_quotes, trend_analysis.comparison_window AS trend_analysis_comparison_window, trend_analysis.created_at AS trend_analysis_created_at 
+FROM companies JOIN trend_analysis ON companies.id = trend_analysis.company_id 
+WHERE trend_analysis.analysis_date = max(trend_analysis.analysis_date) AND abs(trend_analysis.sentiment_change) > ? ORDER BY abs(trend_analysis.sentiment_change) DESC
+ LIMIT ? OFFSET ?]
+[parameters: (0.2, 10, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-07-10 00:49:14,409 - app.api.routes - ERROR - Get watchlist error: Join target, typically a FROM expression, or ORM relationship attribute expected, got 'company'.
+2025-07-10 00:49:15,418 - app.api.routes - ERROR - Get watchlist error: Join target, typically a FROM expression, or ORM relationship attribute expected, got 'company'.
+2025-07-10 00:49:20,217 - app.api.routes - ERROR - Get watchlist error: Join target, typically a FROM expression, or ORM relationship attribute expected, got 'company'.
+2025-07-10 00:49:21,255 - app.api.routes - ERROR - Get watchlist error: Join target, typically a FROM expression, or ORM relationship attribute expected, got 'company'.
+2025-07-10 00:49:23,117 - app.api.routes - ERROR - Get watchlist error: Join target, typically a FROM expression, or ORM relationship attribute expected, got 'company'.
+2025-07-10 00:49:24,132 - app.api.routes - ERROR - Get watchlist error: Join target, typically a FROM expression, or ORM relationship attribute expected, got 'company'.
+2025-07-10 00:49:37,812 - app.api.routes - ERROR - Get watchlist error: Join target, typically a FROM expression, or ORM relationship attribute expected, got 'company'.
+2025-07-10 00:49:38,817 - app.api.routes - ERROR - Get watchlist error: Join target, typically a FROM expression, or ORM relationship attribute expected, got 'company'.
+2025-07-10 00:49:43,966 - app.api.routes - ERROR - Get watchlist error: Join target, typically a FROM expression, or ORM relationship attribute expected, got 'company'.
+2025-07-10 00:49:44,976 - app.api.routes - ERROR - Get watchlist error: Join target, typically a FROM expression, or ORM relationship attribute expected, got 'company'.
+2025-07-10 00:52:20,281 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:52:23,762 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:52:23,770 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:52:23,771 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:52:23,771 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:52:23,826 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:52:23,829 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:52:24,060 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:52:24,231 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:52:24,270 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:52:24,370 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:52:24,397 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:52:24,479 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:52:24,500 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:52:25,610 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:52:25,993 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 00:52:32,569 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:52:35,621 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:52:35,628 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:52:35,629 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:52:35,629 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:52:35,688 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:52:35,691 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:52:35,920 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:52:36,071 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:52:36,095 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:52:36,195 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:52:36,217 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:52:36,300 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:52:36,322 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:52:37,393 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:52:37,718 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 00:55:11,461 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:55:15,034 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:55:15,040 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:55:15,042 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:55:15,042 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:55:15,099 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:55:15,100 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:55:15,363 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:55:15,540 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:55:15,579 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:55:15,687 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:55:15,710 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:55:15,801 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:55:15,824 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:55:17,012 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:55:17,412 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 00:55:30,483 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:55:33,824 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:55:33,832 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:55:33,833 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:55:33,833 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:55:33,890 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:55:33,893 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:55:34,127 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:55:34,291 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:55:34,314 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:55:34,413 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:55:34,449 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:55:34,543 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:55:34,568 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:55:35,548 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:55:35,916 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 00:55:41,467 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:55:44,528 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:55:44,534 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:55:44,535 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:55:44,535 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:55:44,597 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:55:44,599 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:55:44,837 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:55:44,988 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:55:45,008 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:55:45,105 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:55:45,127 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:55:45,202 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:55:45,222 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:55:46,226 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:55:46,559 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 00:55:51,063 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:55:54,095 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:55:54,102 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:55:54,104 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:55:54,104 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:55:54,164 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:55:54,166 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:55:54,396 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:55:54,548 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:55:54,605 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:55:54,696 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:55:54,716 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:55:54,786 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:55:54,811 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:55:55,752 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:55:56,078 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 00:57:59,533 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:58:02,906 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:58:02,912 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:58:02,914 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:58:02,914 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:58:02,968 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:58:02,971 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:58:03,192 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:58:03,347 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:58:03,386 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:58:03,477 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:58:03,497 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:58:03,573 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:58:03,591 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:58:04,689 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:58:05,087 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 00:59:00,881 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:59:03,933 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:59:03,939 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:59:03,941 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:59:03,941 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:59:04,000 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:59:04,003 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:59:04,246 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:59:04,428 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:59:04,468 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:59:04,562 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:59:04,582 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:59:04,658 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:59:04,677 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:59:05,698 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:59:06,082 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 00:59:11,545 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:59:14,609 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:59:14,615 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:59:14,617 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:59:14,617 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:59:14,686 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:59:14,688 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:59:14,918 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:59:15,071 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:59:15,092 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:59:15,190 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:59:15,213 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:59:15,358 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:59:15,376 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:59:16,370 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:59:16,748 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 00:59:39,155 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 00:59:42,270 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 00:59:42,276 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:59:42,277 - matplotlib - DEBUG - interactive is False
+2025-07-10 00:59:42,278 - matplotlib - DEBUG - platform is darwin
+2025-07-10 00:59:42,336 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 00:59:42,339 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 00:59:42,565 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 00:59:42,722 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 00:59:42,743 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 00:59:42,838 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 00:59:42,859 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 00:59:42,936 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 00:59:42,955 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 00:59:43,982 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 00:59:44,439 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 01:00:25,515 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 01:00:28,795 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 01:00:28,800 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 01:00:28,802 - matplotlib - DEBUG - interactive is False
+2025-07-10 01:00:28,802 - matplotlib - DEBUG - platform is darwin
+2025-07-10 01:00:28,857 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 01:00:28,859 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 01:00:29,089 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 01:00:29,243 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 01:00:29,263 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 01:00:29,360 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 01:00:29,381 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 01:00:29,456 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 01:00:29,476 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 01:00:30,471 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 01:00:30,856 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 01:00:53,889 - app.api.q1_2025_routes - INFO - Starting Q1 2025 real data collection...
+2025-07-10 01:00:53,890 - asyncio - DEBUG - Using selector: KqueueSelector
+2025-07-10 01:00:53,894 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 01:00:53,983 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 01:00:54,006 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 01:00:54,082 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 01:00:54,102 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 01:00:55,043 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 01:00:55,043 - app.services.real_data_collector - INFO - Starting Q1 2025 real data collection...
+2025-07-10 01:00:55,043 - app.services.real_data_collector - INFO - Updating company database...
+2025-07-10 01:00:55,046 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/BIIB
+2025-07-10 01:00:55,135 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): financialmodelingprep.com:443
+2025-07-10 01:00:55,267 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/BIIB?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:00:55,300 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): site.financialmodelingprep.com:443
+2025-07-10 01:00:55,480 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/BIIB?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:00:55,480 - app.services.fmp_client - INFO - API call to profile/BIIB: success (Total calls: 1)
+2025-07-10 01:00:55,480 - app.services.fmp_client - ERROR - Request error for profile/BIIB: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/BIIB?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:55,480 - app.services.fmp_client - INFO - API call to profile/BIIB: failed (Total calls: 1)
+2025-07-10 01:00:55,481 - app.services.fmp_client - ERROR - Failed to fetch company profile for BIIB: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/BIIB?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:55,482 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/GILD
+2025-07-10 01:00:55,511 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/GILD?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:00:55,693 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/GILD?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:00:55,694 - app.services.fmp_client - INFO - API call to profile/GILD: success (Total calls: 2)
+2025-07-10 01:00:55,694 - app.services.fmp_client - ERROR - Request error for profile/GILD: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/GILD?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:55,694 - app.services.fmp_client - INFO - API call to profile/GILD: failed (Total calls: 2)
+2025-07-10 01:00:55,694 - app.services.fmp_client - ERROR - Failed to fetch company profile for GILD: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/GILD?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:55,695 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.04 seconds
+2025-07-10 01:00:55,733 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/REGN
+2025-07-10 01:00:55,763 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/REGN?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:00:55,899 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/REGN?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:00:55,900 - app.services.fmp_client - INFO - API call to profile/REGN: success (Total calls: 3)
+2025-07-10 01:00:55,900 - app.services.fmp_client - ERROR - Request error for profile/REGN: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/REGN?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:55,900 - app.services.fmp_client - INFO - API call to profile/REGN: failed (Total calls: 3)
+2025-07-10 01:00:55,900 - app.services.fmp_client - ERROR - Failed to fetch company profile for REGN: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/REGN?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:55,901 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.08 seconds
+2025-07-10 01:00:55,989 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/VRTX
+2025-07-10 01:00:56,021 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/VRTX?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:00:56,145 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/VRTX?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:00:56,146 - app.services.fmp_client - INFO - API call to profile/VRTX: success (Total calls: 4)
+2025-07-10 01:00:56,146 - app.services.fmp_client - ERROR - Request error for profile/VRTX: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/VRTX?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:56,146 - app.services.fmp_client - INFO - API call to profile/VRTX: failed (Total calls: 4)
+2025-07-10 01:00:56,146 - app.services.fmp_client - ERROR - Failed to fetch company profile for VRTX: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/VRTX?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:56,147 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.09 seconds
+2025-07-10 01:00:56,244 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/ALNY
+2025-07-10 01:00:56,275 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/ALNY?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:00:56,393 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/ALNY?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:00:56,394 - app.services.fmp_client - INFO - API call to profile/ALNY: success (Total calls: 5)
+2025-07-10 01:00:56,394 - app.services.fmp_client - ERROR - Request error for profile/ALNY: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/ALNY?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:56,394 - app.services.fmp_client - INFO - API call to profile/ALNY: failed (Total calls: 5)
+2025-07-10 01:00:56,394 - app.services.fmp_client - ERROR - Failed to fetch company profile for ALNY: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/ALNY?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:56,395 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.10 seconds
+2025-07-10 01:00:56,497 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/MRNA
+2025-07-10 01:00:56,527 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/MRNA?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:00:56,648 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/MRNA?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:00:56,649 - app.services.fmp_client - INFO - API call to profile/MRNA: success (Total calls: 6)
+2025-07-10 01:00:56,649 - app.services.fmp_client - ERROR - Request error for profile/MRNA: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/MRNA?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:56,649 - app.services.fmp_client - INFO - API call to profile/MRNA: failed (Total calls: 6)
+2025-07-10 01:00:56,649 - app.services.fmp_client - ERROR - Failed to fetch company profile for MRNA: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/MRNA?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:56,650 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.10 seconds
+2025-07-10 01:00:56,752 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/BNTX
+2025-07-10 01:00:56,788 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/BNTX?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:00:56,933 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/BNTX?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:00:56,934 - app.services.fmp_client - INFO - API call to profile/BNTX: success (Total calls: 7)
+2025-07-10 01:00:56,934 - app.services.fmp_client - ERROR - Request error for profile/BNTX: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/BNTX?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:56,934 - app.services.fmp_client - INFO - API call to profile/BNTX: failed (Total calls: 7)
+2025-07-10 01:00:56,934 - app.services.fmp_client - ERROR - Failed to fetch company profile for BNTX: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/BNTX?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:56,935 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.07 seconds
+2025-07-10 01:00:57,006 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/HALO
+2025-07-10 01:00:57,038 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/HALO?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:00:57,161 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/HALO?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:00:57,163 - app.services.fmp_client - INFO - API call to profile/HALO: success (Total calls: 8)
+2025-07-10 01:00:57,163 - app.services.fmp_client - ERROR - Request error for profile/HALO: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/HALO?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:57,163 - app.services.fmp_client - INFO - API call to profile/HALO: failed (Total calls: 8)
+2025-07-10 01:00:57,163 - app.services.fmp_client - ERROR - Failed to fetch company profile for HALO: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/HALO?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:57,164 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.09 seconds
+2025-07-10 01:00:57,261 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/SAGE
+2025-07-10 01:00:57,300 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/SAGE?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:00:57,431 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/SAGE?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:00:57,431 - app.services.fmp_client - INFO - API call to profile/SAGE: success (Total calls: 9)
+2025-07-10 01:00:57,431 - app.services.fmp_client - ERROR - Request error for profile/SAGE: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/SAGE?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:57,431 - app.services.fmp_client - INFO - API call to profile/SAGE: failed (Total calls: 9)
+2025-07-10 01:00:57,431 - app.services.fmp_client - ERROR - Failed to fetch company profile for SAGE: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/SAGE?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:57,432 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.08 seconds
+2025-07-10 01:00:57,516 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/BGNE
+2025-07-10 01:00:57,547 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/BGNE?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:00:57,666 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/BGNE?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:00:57,666 - app.services.fmp_client - INFO - API call to profile/BGNE: success (Total calls: 10)
+2025-07-10 01:00:57,667 - app.services.fmp_client - ERROR - Request error for profile/BGNE: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/BGNE?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:57,667 - app.services.fmp_client - INFO - API call to profile/BGNE: failed (Total calls: 10)
+2025-07-10 01:00:57,667 - app.services.fmp_client - ERROR - Failed to fetch company profile for BGNE: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/BGNE?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:57,668 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.10 seconds
+2025-07-10 01:00:57,772 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/EXEL
+2025-07-10 01:00:57,803 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/EXEL?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:00:57,951 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/EXEL?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:00:57,952 - app.services.fmp_client - INFO - API call to profile/EXEL: success (Total calls: 11)
+2025-07-10 01:00:57,952 - app.services.fmp_client - ERROR - Request error for profile/EXEL: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/EXEL?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:57,952 - app.services.fmp_client - INFO - API call to profile/EXEL: failed (Total calls: 11)
+2025-07-10 01:00:57,952 - app.services.fmp_client - ERROR - Failed to fetch company profile for EXEL: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/EXEL?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:57,953 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.07 seconds
+2025-07-10 01:00:58,026 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/IOVA
+2025-07-10 01:00:58,066 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/IOVA?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:00:58,187 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/IOVA?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:00:58,188 - app.services.fmp_client - INFO - API call to profile/IOVA: success (Total calls: 12)
+2025-07-10 01:00:58,188 - app.services.fmp_client - ERROR - Request error for profile/IOVA: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/IOVA?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:58,188 - app.services.fmp_client - INFO - API call to profile/IOVA: failed (Total calls: 12)
+2025-07-10 01:00:58,188 - app.services.fmp_client - ERROR - Failed to fetch company profile for IOVA: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/IOVA?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:58,189 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.09 seconds
+2025-07-10 01:00:58,281 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/FOLD
+2025-07-10 01:00:58,317 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/FOLD?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:00:58,449 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/FOLD?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:00:58,450 - app.services.fmp_client - INFO - API call to profile/FOLD: success (Total calls: 13)
+2025-07-10 01:00:58,450 - app.services.fmp_client - ERROR - Request error for profile/FOLD: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/FOLD?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:58,450 - app.services.fmp_client - INFO - API call to profile/FOLD: failed (Total calls: 13)
+2025-07-10 01:00:58,450 - app.services.fmp_client - ERROR - Failed to fetch company profile for FOLD: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/FOLD?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:58,451 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.08 seconds
+2025-07-10 01:00:58,534 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/RARE
+2025-07-10 01:00:58,568 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/RARE?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:00:58,692 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/RARE?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:00:58,693 - app.services.fmp_client - INFO - API call to profile/RARE: success (Total calls: 14)
+2025-07-10 01:00:58,693 - app.services.fmp_client - ERROR - Request error for profile/RARE: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/RARE?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:58,693 - app.services.fmp_client - INFO - API call to profile/RARE: failed (Total calls: 14)
+2025-07-10 01:00:58,693 - app.services.fmp_client - ERROR - Failed to fetch company profile for RARE: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/RARE?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:58,701 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.08 seconds
+2025-07-10 01:00:58,788 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/TMDX
+2025-07-10 01:00:58,819 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/TMDX?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:00:58,950 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/TMDX?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:00:58,951 - app.services.fmp_client - INFO - API call to profile/TMDX: success (Total calls: 15)
+2025-07-10 01:00:58,951 - app.services.fmp_client - ERROR - Request error for profile/TMDX: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/TMDX?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:58,951 - app.services.fmp_client - INFO - API call to profile/TMDX: failed (Total calls: 15)
+2025-07-10 01:00:58,951 - app.services.fmp_client - ERROR - Failed to fetch company profile for TMDX: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/TMDX?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:58,952 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.09 seconds
+2025-07-10 01:00:59,042 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/CRSP
+2025-07-10 01:00:59,073 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/CRSP?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:00:59,195 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/CRSP?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:00:59,195 - app.services.fmp_client - INFO - API call to profile/CRSP: success (Total calls: 16)
+2025-07-10 01:00:59,195 - app.services.fmp_client - ERROR - Request error for profile/CRSP: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/CRSP?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:59,195 - app.services.fmp_client - INFO - API call to profile/CRSP: failed (Total calls: 16)
+2025-07-10 01:00:59,195 - app.services.fmp_client - ERROR - Failed to fetch company profile for CRSP: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/CRSP?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:59,196 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.10 seconds
+2025-07-10 01:00:59,292 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/EDIT
+2025-07-10 01:00:59,324 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/EDIT?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:00:59,446 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/EDIT?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:00:59,446 - app.services.fmp_client - INFO - API call to profile/EDIT: success (Total calls: 17)
+2025-07-10 01:00:59,447 - app.services.fmp_client - ERROR - Request error for profile/EDIT: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/EDIT?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:59,447 - app.services.fmp_client - INFO - API call to profile/EDIT: failed (Total calls: 17)
+2025-07-10 01:00:59,447 - app.services.fmp_client - ERROR - Failed to fetch company profile for EDIT: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/EDIT?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:59,448 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.09 seconds
+2025-07-10 01:00:59,542 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/NTLA
+2025-07-10 01:00:59,576 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/NTLA?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:00:59,733 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/NTLA?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:00:59,733 - app.services.fmp_client - INFO - API call to profile/NTLA: success (Total calls: 18)
+2025-07-10 01:00:59,733 - app.services.fmp_client - ERROR - Request error for profile/NTLA: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/NTLA?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:59,733 - app.services.fmp_client - INFO - API call to profile/NTLA: failed (Total calls: 18)
+2025-07-10 01:00:59,734 - app.services.fmp_client - ERROR - Failed to fetch company profile for NTLA: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/NTLA?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:59,735 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.06 seconds
+2025-07-10 01:00:59,798 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/BEAM
+2025-07-10 01:00:59,828 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/BEAM?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:00:59,955 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/BEAM?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:00:59,955 - app.services.fmp_client - INFO - API call to profile/BEAM: success (Total calls: 19)
+2025-07-10 01:00:59,955 - app.services.fmp_client - ERROR - Request error for profile/BEAM: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/BEAM?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:59,955 - app.services.fmp_client - INFO - API call to profile/BEAM: failed (Total calls: 19)
+2025-07-10 01:00:59,955 - app.services.fmp_client - ERROR - Failed to fetch company profile for BEAM: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/BEAM?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:00:59,956 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.09 seconds
+2025-07-10 01:01:00,053 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/VERV
+2025-07-10 01:01:00,127 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/VERV?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:01:00,264 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/VERV?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:01:00,265 - app.services.fmp_client - INFO - API call to profile/VERV: success (Total calls: 20)
+2025-07-10 01:01:00,265 - app.services.fmp_client - ERROR - Request error for profile/VERV: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/VERV?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:01:00,265 - app.services.fmp_client - INFO - API call to profile/VERV: failed (Total calls: 20)
+2025-07-10 01:01:00,265 - app.services.fmp_client - ERROR - Failed to fetch company profile for VERV: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/VERV?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:01:00,266 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.04 seconds
+2025-07-10 01:01:00,308 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/NTRA
+2025-07-10 01:01:00,341 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/NTRA?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:01:00,466 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/NTRA?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:01:00,467 - app.services.fmp_client - INFO - API call to profile/NTRA: success (Total calls: 21)
+2025-07-10 01:01:00,467 - app.services.fmp_client - ERROR - Request error for profile/NTRA: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/NTRA?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:01:00,467 - app.services.fmp_client - INFO - API call to profile/NTRA: failed (Total calls: 21)
+2025-07-10 01:01:00,467 - app.services.fmp_client - ERROR - Failed to fetch company profile for NTRA: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/NTRA?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:01:00,468 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.09 seconds
+2025-07-10 01:01:00,563 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/DNLI
+2025-07-10 01:01:00,606 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/DNLI?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:01:00,762 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/DNLI?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:01:00,762 - app.services.fmp_client - INFO - API call to profile/DNLI: success (Total calls: 22)
+2025-07-10 01:01:00,762 - app.services.fmp_client - ERROR - Request error for profile/DNLI: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/DNLI?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:01:00,763 - app.services.fmp_client - INFO - API call to profile/DNLI: failed (Total calls: 22)
+2025-07-10 01:01:00,763 - app.services.fmp_client - ERROR - Failed to fetch company profile for DNLI: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/DNLI?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:01:00,764 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.05 seconds
+2025-07-10 01:01:00,815 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/ADAP
+2025-07-10 01:01:00,848 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/ADAP?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:01:00,974 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/ADAP?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:01:00,974 - app.services.fmp_client - INFO - API call to profile/ADAP: success (Total calls: 23)
+2025-07-10 01:01:00,974 - app.services.fmp_client - ERROR - Request error for profile/ADAP: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/ADAP?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:01:00,974 - app.services.fmp_client - INFO - API call to profile/ADAP: failed (Total calls: 23)
+2025-07-10 01:01:00,975 - app.services.fmp_client - ERROR - Failed to fetch company profile for ADAP: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/ADAP?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:01:00,976 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.09 seconds
+2025-07-10 01:01:01,067 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/PRTA
+2025-07-10 01:01:01,105 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/PRTA?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:01:01,254 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/PRTA?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:01:01,255 - app.services.fmp_client - INFO - API call to profile/PRTA: success (Total calls: 24)
+2025-07-10 01:01:01,255 - app.services.fmp_client - ERROR - Request error for profile/PRTA: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/PRTA?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:01:01,255 - app.services.fmp_client - INFO - API call to profile/PRTA: failed (Total calls: 24)
+2025-07-10 01:01:01,255 - app.services.fmp_client - ERROR - Failed to fetch company profile for PRTA: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/PRTA?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:01:01,256 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.06 seconds
+2025-07-10 01:01:01,319 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/MRTX
+2025-07-10 01:01:01,353 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/MRTX?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:01:01,500 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/MRTX?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:01:01,500 - app.services.fmp_client - INFO - API call to profile/MRTX: success (Total calls: 25)
+2025-07-10 01:01:01,500 - app.services.fmp_client - ERROR - Request error for profile/MRTX: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/MRTX?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:01:01,501 - app.services.fmp_client - INFO - API call to profile/MRTX: failed (Total calls: 25)
+2025-07-10 01:01:01,501 - app.services.fmp_client - ERROR - Failed to fetch company profile for MRTX: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/MRTX?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:01:01,502 - app.services.fmp_client - DEBUG - Rate limiting: sleeping for 0.07 seconds
+2025-07-10 01:01:01,574 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/PRTK
+2025-07-10 01:01:01,607 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/profile/PRTK?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:01:01,730 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/profile/PRTK?apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:01:01,731 - app.services.fmp_client - INFO - API call to profile/PRTK: success (Total calls: 26)
+2025-07-10 01:01:01,731 - app.services.fmp_client - ERROR - Request error for profile/PRTK: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/PRTK?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:01:01,731 - app.services.fmp_client - INFO - API call to profile/PRTK: failed (Total calls: 26)
+2025-07-10 01:01:01,731 - app.services.fmp_client - ERROR - Failed to fetch company profile for PRTK: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/PRTK?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:01:01,731 - app.services.real_data_collector - INFO - Fetching Q1 2025 transcripts...
+2025-07-10 01:01:01,739 - app.services.earnings_call_client - DEBUG - Making GET request to https://v2.api.earningscall.biz/transcript
+2025-07-10 01:01:01,855 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): v2.api.earningscall.biz:443
+2025-07-10 01:01:02,272 - urllib3.connectionpool - DEBUG - https://v2.api.earningscall.biz:443 "GET /transcript?exchange=nasdaq&symbol=HROW&year=2025&quarter=1&apikey=premium_44REQ4tOEr0T7ADdkEogjw HTTP/1.1" 200 None
+2025-07-10 01:01:02,273 - app.services.earnings_call_client - INFO - API call to transcript: success (Total calls: 1)
+2025-07-10 01:01:02,273 - app.services.earnings_call_client - DEBUG - Making GET request to https://v2.api.earningscall.biz/transcript
+2025-07-10 01:01:02,577 - urllib3.connectionpool - DEBUG - https://v2.api.earningscall.biz:443 "GET /transcript?exchange=nasdaq&symbol=HROW&year=2024&quarter=4&apikey=premium_44REQ4tOEr0T7ADdkEogjw HTTP/1.1" 404 None
+2025-07-10 01:01:02,578 - app.services.earnings_call_client - INFO - API call to transcript: success (Total calls: 2)
+2025-07-10 01:01:02,578 - app.services.earnings_call_client - ERROR - Request error for transcript: 404 Client Error: Not Found for url: https://v2.api.earningscall.biz/transcript?exchange=nasdaq&symbol=HROW&year=2024&quarter=4&apikey=premium_44REQ4tOEr0T7ADdkEogjw
+2025-07-10 01:01:02,578 - app.services.earnings_call_client - INFO - API call to transcript: failed (Total calls: 2)
+2025-07-10 01:01:02,578 - app.services.earnings_call_client - ERROR - Failed to fetch transcript for HROW 2024Q4: Request failed: 404 Client Error: Not Found for url: https://v2.api.earningscall.biz/transcript?exchange=nasdaq&symbol=HROW&year=2024&quarter=4&apikey=premium_44REQ4tOEr0T7ADdkEogjw
+2025-07-10 01:01:02,578 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/earning_call_transcript/HROW
+2025-07-10 01:01:02,611 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/earning_call_transcript/HROW?year=2024&quarter=4&apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:01:02,799 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/earning_call_transcript/HROW?year=2024&quarter=4&apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:01:02,800 - app.services.fmp_client - INFO - API call to earning_call_transcript/HROW: success (Total calls: 27)
+2025-07-10 01:01:02,800 - app.services.fmp_client - ERROR - Request error for earning_call_transcript/HROW: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/earning_call_transcript/HROW?year=2024&quarter=4&apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:01:02,800 - app.services.fmp_client - INFO - API call to earning_call_transcript/HROW: failed (Total calls: 27)
+2025-07-10 01:01:02,800 - app.services.fmp_client - ERROR - Failed to fetch transcript for HROW 2024Q4: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/earning_call_transcript/HROW?year=2024&quarter=4&apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:01:02,801 - app.services.earnings_call_client - DEBUG - Making GET request to https://v2.api.earningscall.biz/transcript
+2025-07-10 01:01:02,924 - urllib3.connectionpool - DEBUG - https://v2.api.earningscall.biz:443 "GET /transcript?exchange=nasdaq&symbol=ETON&year=2025&quarter=1&apikey=premium_44REQ4tOEr0T7ADdkEogjw HTTP/1.1" 200 None
+2025-07-10 01:01:02,939 - app.services.earnings_call_client - INFO - API call to transcript: success (Total calls: 3)
+2025-07-10 01:01:02,939 - app.services.earnings_call_client - DEBUG - Rate limiting: sleeping for 0.36 seconds
+2025-07-10 01:01:03,306 - app.services.earnings_call_client - DEBUG - Making GET request to https://v2.api.earningscall.biz/transcript
+2025-07-10 01:01:03,466 - urllib3.connectionpool - DEBUG - https://v2.api.earningscall.biz:443 "GET /transcript?exchange=nasdaq&symbol=ETON&year=2024&quarter=4&apikey=premium_44REQ4tOEr0T7ADdkEogjw HTTP/1.1" 200 None
+2025-07-10 01:01:03,497 - app.services.earnings_call_client - INFO - API call to transcript: success (Total calls: 4)
+2025-07-10 01:01:03,498 - app.services.earnings_call_client - DEBUG - Rate limiting: sleeping for 0.31 seconds
+2025-07-10 01:01:03,808 - app.services.earnings_call_client - DEBUG - Making GET request to https://v2.api.earningscall.biz/transcript
+2025-07-10 01:01:03,909 - urllib3.connectionpool - DEBUG - https://v2.api.earningscall.biz:443 "GET /transcript?exchange=nasdaq&symbol=LQDA&year=2025&quarter=1&apikey=premium_44REQ4tOEr0T7ADdkEogjw HTTP/1.1" 200 None
+2025-07-10 01:01:03,924 - app.services.earnings_call_client - INFO - API call to transcript: success (Total calls: 5)
+2025-07-10 01:01:03,924 - app.services.earnings_call_client - DEBUG - Rate limiting: sleeping for 0.38 seconds
+2025-07-10 01:01:04,309 - app.services.earnings_call_client - DEBUG - Making GET request to https://v2.api.earningscall.biz/transcript
+2025-07-10 01:01:04,429 - urllib3.connectionpool - DEBUG - https://v2.api.earningscall.biz:443 "GET /transcript?exchange=nasdaq&symbol=LQDA&year=2024&quarter=4&apikey=premium_44REQ4tOEr0T7ADdkEogjw HTTP/1.1" 200 None
+2025-07-10 01:01:04,445 - app.services.earnings_call_client - INFO - API call to transcript: success (Total calls: 6)
+2025-07-10 01:01:04,446 - app.services.earnings_call_client - DEBUG - Rate limiting: sleeping for 0.36 seconds
+2025-07-10 01:01:04,814 - app.services.earnings_call_client - DEBUG - Making GET request to https://v2.api.earningscall.biz/transcript
+2025-07-10 01:01:04,920 - urllib3.connectionpool - DEBUG - https://v2.api.earningscall.biz:443 "GET /transcript?exchange=nasdaq&symbol=RYTM&year=2025&quarter=1&apikey=premium_44REQ4tOEr0T7ADdkEogjw HTTP/1.1" 200 None
+2025-07-10 01:01:04,938 - app.services.earnings_call_client - INFO - API call to transcript: success (Total calls: 7)
+2025-07-10 01:01:04,938 - app.services.earnings_call_client - DEBUG - Rate limiting: sleeping for 0.38 seconds
+2025-07-10 01:01:05,319 - app.services.earnings_call_client - DEBUG - Making GET request to https://v2.api.earningscall.biz/transcript
+2025-07-10 01:01:05,452 - urllib3.connectionpool - DEBUG - https://v2.api.earningscall.biz:443 "GET /transcript?exchange=nasdaq&symbol=RYTM&year=2024&quarter=4&apikey=premium_44REQ4tOEr0T7ADdkEogjw HTTP/1.1" 200 None
+2025-07-10 01:01:05,469 - app.services.earnings_call_client - INFO - API call to transcript: success (Total calls: 8)
+2025-07-10 01:01:05,470 - app.services.earnings_call_client - DEBUG - Rate limiting: sleeping for 0.35 seconds
+2025-07-10 01:01:05,825 - app.services.earnings_call_client - DEBUG - Making GET request to https://v2.api.earningscall.biz/transcript
+2025-07-10 01:01:05,954 - urllib3.connectionpool - DEBUG - https://v2.api.earningscall.biz:443 "GET /transcript?exchange=nasdaq&symbol=CDXS&year=2025&quarter=1&apikey=premium_44REQ4tOEr0T7ADdkEogjw HTTP/1.1" 200 None
+2025-07-10 01:01:05,968 - app.services.earnings_call_client - INFO - API call to transcript: success (Total calls: 9)
+2025-07-10 01:01:05,968 - app.services.earnings_call_client - DEBUG - Rate limiting: sleeping for 0.36 seconds
+2025-07-10 01:01:06,325 - app.services.earnings_call_client - DEBUG - Making GET request to https://v2.api.earningscall.biz/transcript
+2025-07-10 01:01:06,420 - urllib3.connectionpool - DEBUG - https://v2.api.earningscall.biz:443 "GET /transcript?exchange=nasdaq&symbol=CDXS&year=2024&quarter=4&apikey=premium_44REQ4tOEr0T7ADdkEogjw HTTP/1.1" 200 None
+2025-07-10 01:01:06,436 - app.services.earnings_call_client - INFO - API call to transcript: success (Total calls: 10)
+2025-07-10 01:01:06,437 - app.services.earnings_call_client - DEBUG - Rate limiting: sleeping for 0.39 seconds
+2025-07-10 01:01:06,828 - app.services.earnings_call_client - DEBUG - Making GET request to https://v2.api.earningscall.biz/transcript
+2025-07-10 01:01:06,924 - urllib3.connectionpool - DEBUG - https://v2.api.earningscall.biz:443 "GET /transcript?exchange=nasdaq&symbol=SNWVD&year=2025&quarter=1&apikey=premium_44REQ4tOEr0T7ADdkEogjw HTTP/1.1" 404 None
+2025-07-10 01:01:06,924 - app.services.earnings_call_client - INFO - API call to transcript: success (Total calls: 11)
+2025-07-10 01:01:06,924 - app.services.earnings_call_client - ERROR - Request error for transcript: 404 Client Error: Not Found for url: https://v2.api.earningscall.biz/transcript?exchange=nasdaq&symbol=SNWVD&year=2025&quarter=1&apikey=premium_44REQ4tOEr0T7ADdkEogjw
+2025-07-10 01:01:06,924 - app.services.earnings_call_client - INFO - API call to transcript: failed (Total calls: 11)
+2025-07-10 01:01:06,925 - app.services.earnings_call_client - ERROR - Failed to fetch transcript for SNWVD 2025Q1: Request failed: 404 Client Error: Not Found for url: https://v2.api.earningscall.biz/transcript?exchange=nasdaq&symbol=SNWVD&year=2025&quarter=1&apikey=premium_44REQ4tOEr0T7ADdkEogjw
+2025-07-10 01:01:06,925 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/earning_call_transcript/SNWVD
+2025-07-10 01:01:06,955 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/earning_call_transcript/SNWVD?year=2025&quarter=1&apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:01:07,133 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/earning_call_transcript/SNWVD?year=2025&quarter=1&apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:01:07,134 - app.services.fmp_client - INFO - API call to earning_call_transcript/SNWVD: success (Total calls: 28)
+2025-07-10 01:01:07,134 - app.services.fmp_client - ERROR - Request error for earning_call_transcript/SNWVD: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/earning_call_transcript/SNWVD?year=2025&quarter=1&apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:01:07,135 - app.services.fmp_client - INFO - API call to earning_call_transcript/SNWVD: failed (Total calls: 28)
+2025-07-10 01:01:07,135 - app.services.fmp_client - ERROR - Failed to fetch transcript for SNWVD 2025Q1: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/earning_call_transcript/SNWVD?year=2025&quarter=1&apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:01:07,135 - app.services.earnings_call_client - DEBUG - Rate limiting: sleeping for 0.19 seconds
+2025-07-10 01:01:07,331 - app.services.earnings_call_client - DEBUG - Making GET request to https://v2.api.earningscall.biz/transcript
+2025-07-10 01:01:07,418 - urllib3.connectionpool - DEBUG - https://v2.api.earningscall.biz:443 "GET /transcript?exchange=nasdaq&symbol=SNWVD&year=2024&quarter=4&apikey=premium_44REQ4tOEr0T7ADdkEogjw HTTP/1.1" 404 None
+2025-07-10 01:01:07,419 - app.services.earnings_call_client - INFO - API call to transcript: success (Total calls: 12)
+2025-07-10 01:01:07,419 - app.services.earnings_call_client - ERROR - Request error for transcript: 404 Client Error: Not Found for url: https://v2.api.earningscall.biz/transcript?exchange=nasdaq&symbol=SNWVD&year=2024&quarter=4&apikey=premium_44REQ4tOEr0T7ADdkEogjw
+2025-07-10 01:01:07,419 - app.services.earnings_call_client - INFO - API call to transcript: failed (Total calls: 12)
+2025-07-10 01:01:07,419 - app.services.earnings_call_client - ERROR - Failed to fetch transcript for SNWVD 2024Q4: Request failed: 404 Client Error: Not Found for url: https://v2.api.earningscall.biz/transcript?exchange=nasdaq&symbol=SNWVD&year=2024&quarter=4&apikey=premium_44REQ4tOEr0T7ADdkEogjw
+2025-07-10 01:01:07,419 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/earning_call_transcript/SNWVD
+2025-07-10 01:01:07,451 - urllib3.connectionpool - DEBUG - https://financialmodelingprep.com:443 "GET /v3/earning_call_transcript/SNWVD?year=2024&quarter=4&apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 301 178
+2025-07-10 01:01:07,615 - urllib3.connectionpool - DEBUG - https://site.financialmodelingprep.com:443 "GET /v3/earning_call_transcript/SNWVD?year=2024&quarter=4&apikey=9a835ed8bbff501bf036a6f843d5a6fe HTTP/1.1" 404 None
+2025-07-10 01:01:07,616 - app.services.fmp_client - INFO - API call to earning_call_transcript/SNWVD: success (Total calls: 29)
+2025-07-10 01:01:07,616 - app.services.fmp_client - ERROR - Request error for earning_call_transcript/SNWVD: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/earning_call_transcript/SNWVD?year=2024&quarter=4&apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:01:07,616 - app.services.fmp_client - INFO - API call to earning_call_transcript/SNWVD: failed (Total calls: 29)
+2025-07-10 01:01:07,616 - app.services.fmp_client - ERROR - Failed to fetch transcript for SNWVD 2024Q4: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/earning_call_transcript/SNWVD?year=2024&quarter=4&apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-10 01:01:07,622 - app.services.real_data_collector - INFO - Fetched 0 transcripts
+2025-07-10 01:01:07,635 - app.services.real_data_collector - INFO - Q1 2025 data collection completed: {'companies_processed': 0, 'transcripts_fetched': 0, 'transcripts_analyzed': 0, 'trends_generated': 0, 'alerts_created': 0, 'errors': [], 'summary': {'total_companies': 6, 'total_transcripts': 6, 'total_trends': 1, 'recent_transcripts': 6, 'recent_trends': 1, 'trend_distribution': {'improving': 0, 'stable': 0, 'declining': 1, 'insufficient_data': 0}, 'collection_date': '2025-07-10T05:01:07.635321'}}
+2025-07-10 01:01:17,269 - app.api.q1_2025_routes - ERROR - Error generating company report for HROW: 'PDFReportGenerator' object has no attribute 'colors'
+2025-07-10 01:01:24,879 - app.api.q1_2025_routes - ERROR - Error getting key quotes: name 'Transcript' is not defined
+2025-07-10 01:03:46,142 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 01:03:49,649 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 01:03:49,657 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 01:03:49,658 - matplotlib - DEBUG - interactive is False
+2025-07-10 01:03:49,658 - matplotlib - DEBUG - platform is darwin
+2025-07-10 01:03:49,739 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 01:03:49,742 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 01:03:50,035 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 01:03:50,209 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 01:03:50,326 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 01:03:50,415 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 01:03:50,436 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 01:03:50,507 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 01:03:50,527 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 01:03:51,612 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 01:03:52,027 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 01:03:58,803 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 01:04:02,137 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 01:04:02,144 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 01:04:02,146 - matplotlib - DEBUG - interactive is False
+2025-07-10 01:04:02,146 - matplotlib - DEBUG - platform is darwin
+2025-07-10 01:04:02,206 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 01:04:02,209 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 01:04:02,449 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 01:04:02,611 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 01:04:02,632 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 01:04:02,729 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 01:04:02,750 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 01:04:02,828 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 01:04:02,851 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 01:04:03,863 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 01:04:04,281 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 01:04:14,967 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 01:04:18,066 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 01:04:18,072 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 01:04:18,073 - matplotlib - DEBUG - interactive is False
+2025-07-10 01:04:18,073 - matplotlib - DEBUG - platform is darwin
+2025-07-10 01:04:18,129 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 01:04:18,132 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 01:04:18,357 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 01:04:18,514 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 01:04:18,539 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 01:04:18,634 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 01:04:18,660 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 01:04:18,742 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 01:04:18,761 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 01:04:19,761 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 01:04:20,131 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 01:04:25,658 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 01:04:28,686 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 01:04:28,692 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 01:04:28,694 - matplotlib - DEBUG - interactive is False
+2025-07-10 01:04:28,694 - matplotlib - DEBUG - platform is darwin
+2025-07-10 01:04:28,751 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 01:04:28,753 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 01:04:28,977 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 01:04:29,129 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 01:04:29,150 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 01:04:29,247 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 01:04:29,272 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 01:04:29,350 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 01:04:29,371 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 01:04:30,370 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 01:04:30,793 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 01:04:38,393 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 01:04:41,493 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 01:04:41,500 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 01:04:41,502 - matplotlib - DEBUG - interactive is False
+2025-07-10 01:04:41,502 - matplotlib - DEBUG - platform is darwin
+2025-07-10 01:04:41,561 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 01:04:41,564 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 01:04:41,823 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 01:04:41,993 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 01:04:42,017 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 01:04:42,105 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 01:04:42,132 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 01:04:42,215 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 01:04:42,241 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 01:04:43,276 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 01:04:43,686 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 01:04:49,140 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 01:04:52,194 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 01:04:52,201 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 01:04:52,202 - matplotlib - DEBUG - interactive is False
+2025-07-10 01:04:52,203 - matplotlib - DEBUG - platform is darwin
+2025-07-10 01:04:52,259 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 01:04:52,261 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 01:04:52,507 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 01:04:52,676 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 01:04:52,701 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 01:04:52,803 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 01:04:52,826 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 01:04:52,909 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 01:04:52,935 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 01:04:53,989 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 01:04:54,400 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 01:04:59,914 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 01:05:02,929 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 01:05:02,935 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 01:05:02,937 - matplotlib - DEBUG - interactive is False
+2025-07-10 01:05:02,937 - matplotlib - DEBUG - platform is darwin
+2025-07-10 01:05:02,993 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 01:05:02,996 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 01:05:03,233 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 01:05:03,395 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 01:05:03,416 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 01:05:03,516 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 01:05:03,541 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 01:05:03,618 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 01:05:03,637 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 01:05:04,629 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 01:05:04,965 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 01:05:31,296 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 01:05:34,345 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 01:05:34,351 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 01:05:34,352 - matplotlib - DEBUG - interactive is False
+2025-07-10 01:05:34,353 - matplotlib - DEBUG - platform is darwin
+2025-07-10 01:05:34,410 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 01:05:34,412 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 01:05:34,635 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 01:05:34,796 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 01:05:34,911 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 01:05:35,010 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 01:05:35,029 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 01:05:35,106 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 01:05:35,127 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 01:05:36,126 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 01:05:36,484 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 01:09:59,910 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 01:10:03,147 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 01:10:03,153 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 01:10:03,154 - matplotlib - DEBUG - interactive is False
+2025-07-10 01:10:03,154 - matplotlib - DEBUG - platform is darwin
+2025-07-10 01:10:03,215 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 01:10:03,217 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 01:10:03,455 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 01:10:03,620 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 01:10:03,732 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 01:10:03,951 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 01:10:03,972 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 01:10:04,056 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 01:10:04,077 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 01:10:05,213 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 01:10:05,581 - werkzeug - WARNING -  * Debugger is active!
+2025-07-10 01:12:39,475 - app - INFO - OpalSight application initialized with development configuration
+2025-07-10 01:12:42,851 - matplotlib - DEBUG - matplotlib data path: /Users/vijaythakore/opalsight/backend/venv/lib/python3.9/site-packages/matplotlib/mpl-data
+2025-07-10 01:12:42,857 - matplotlib - DEBUG - CONFIGDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 01:12:42,859 - matplotlib - DEBUG - interactive is False
+2025-07-10 01:12:42,859 - matplotlib - DEBUG - platform is darwin
+2025-07-10 01:12:42,912 - matplotlib - DEBUG - CACHEDIR=/Users/vijaythakore/.matplotlib
+2025-07-10 01:12:42,915 - matplotlib.font_manager - DEBUG - Using fontManager instance from /Users/vijaythakore/.matplotlib/fontlist-v330.json
+2025-07-10 01:12:43,120 - matplotlib.pyplot - DEBUG - Loaded backend agg version v2.2.
+2025-07-10 01:12:43,286 - app.services.cache_service - WARNING - Cache service disabled: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-07-10 01:12:43,334 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-07-10 01:12:43,427 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-07-10 01:12:43,448 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/tokenizer_config.json HTTP/1.1" 200 0
+2025-07-10 01:12:43,536 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /ProsusAI/finbert/resolve/main/config.json HTTP/1.1" 307 0
+2025-07-10 01:12:43,554 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/ProsusAI/finbert/4556d13015211d73dccd3fdd39d39232506f3e43/config.json HTTP/1.1" 200 0
+2025-07-10 01:12:44,684 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-10 01:12:45,063 - werkzeug - WARNING -  * Debugger is active!

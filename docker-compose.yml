@@ -1,0 +1,111 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  db:
+    image: postgres:15-alpine
+    container_name: opalsight-db
+    environment:
+      POSTGRES_USER: opalsight_user
+      POSTGRES_PASSWORD: secure_password
+      POSTGRES_DB: opalsight
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U opalsight_user -d opalsight"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: opalsight-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  # Backend Flask Application
+  backend:
+    build: ./backend
+    container_name: opalsight-backend
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      - DATABASE_URL=postgresql://opalsight_user:secure_password@db:5432/opalsight
+      - REDIS_URL=redis://redis:6379/0
+      - FLASK_ENV=development
+      - SECRET_KEY=dev-secret-key
+      - FMP_API_KEY=9a835ed8bbff501bf036a6f843d5a6fe
+    volumes:
+      - ./backend:/app
+    command: >
+      sh -c "
+        echo 'Waiting for database to be ready...'
+        python -c 'import time; time.sleep(10)'
+        echo 'Starting Flask application...'
+        python run.py
+      "
+
+  # Scheduler Service
+  scheduler:
+    build: ./backend
+    container_name: opalsight-scheduler
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      - DATABASE_URL=postgresql://opalsight_user:secure_password@db:5432/opalsight
+      - REDIS_URL=redis://redis:6379/0
+      - FLASK_ENV=development
+      - SECRET_KEY=dev-secret-key
+      - FMP_API_KEY=9a835ed8bbff501bf036a6f843d5a6fe
+    volumes:
+      - ./backend:/app
+    command: python scheduler.py
+
+  # Frontend React Application
+  frontend:
+    build: ./frontend
+    container_name: opalsight-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - REACT_APP_API_URL=http://localhost:8000
+      - NODE_ENV=production
+    depends_on:
+      - backend
+
+  # pgAdmin (optional, for database management)
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: opalsight-pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@opalsight.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5050:80"
+    depends_on:
+      - db
+    profiles:
+      - tools
+
+volumes:
+  postgres_data:
+  redis_data:

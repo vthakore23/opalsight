@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpalSight - Company Sentiment Analyzer</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1976d2;
+            margin-bottom: 30px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #333;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+            box-sizing: border-box;
+            resize: vertical;
+            min-height: 150px;
+        }
+        button {
+            background-color: #1976d2;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #1565c0;
+        }
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+        .result {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+            display: none;
+        }
+        .result.show {
+            display: block;
+        }
+        .sentiment-score {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .positive { color: #4caf50; }
+        .negative { color: #f44336; }
+        .neutral { color: #ff9800; }
+        .error {
+            color: #f44336;
+            margin-top: 10px;
+        }
+        .loading {
+            display: none;
+            margin-left: 10px;
+        }
+        .loading.show {
+            display: inline-block;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #1976d2;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-link">← Back to Dashboard</a>
+        <h1>Company Sentiment Analyzer</h1>
+        
+        <div class="form-group">
+            <label for="company">Company Name:</label>
+            <input type="text" id="company" placeholder="Enter company name (e.g., Pfizer, Moderna)">
+        </div>
+        
+        <div class="form-group">
+            <label for="text">Earnings Call Text or Announcement:</label>
+            <textarea id="text" placeholder="Paste the earnings call transcript, press release, or any text you want to analyze..."></textarea>
+        </div>
+        
+        <button onclick="analyzeSentiment()">
+            Analyze Sentiment
+            <span class="loading" id="loading">⏳</span>
+        </button>
+        
+        <div id="result" class="result">
+            <h2>Analysis Results</h2>
+            <div id="resultContent"></div>
+        </div>
+        
+        <div id="error" class="error"></div>
+    </div>
+
+    <script>
+        async function analyzeSentiment() {
+            const company = document.getElementById('company').value.trim();
+            const text = document.getElementById('text').value.trim();
+            const resultDiv = document.getElementById('result');
+            const resultContent = document.getElementById('resultContent');
+            const errorDiv = document.getElementById('error');
+            const loading = document.getElementById('loading');
+            const button = document.querySelector('button');
+            
+            // Clear previous results
+            errorDiv.textContent = '';
+            resultDiv.classList.remove('show');
+            
+            // Validate inputs
+            if (!company) {
+                errorDiv.textContent = 'Please enter a company name';
+                return;
+            }
+            
+            if (!text) {
+                errorDiv.textContent = 'Please enter text to analyze';
+                return;
+            }
+            
+            // Show loading
+            loading.classList.add('show');
+            button.disabled = true;
+            
+            try {
+                const response = await fetch('/api/analyze/company', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        company_name: company,
+                        text: text
+                    })
+                });
+                
+                const data = await response.json();
+                
+                if (!response.ok) {
+                    throw new Error(data.error || 'Analysis failed');
+                }
+                
+                // Display results
+                const sentiment = data.sentiment;
+                const sentimentClass = data.recommendation;
+                
+                resultContent.innerHTML = `
+                    <p><strong>Company:</strong> ${data.company_name}</p>
+                    <p><strong>Sentiment Score:</strong> 
+                        <span class="sentiment-score ${sentimentClass}">
+                            ${sentiment.score.toFixed(3)}
+                        </span>
+                    </p>
+                    <p><strong>Label:</strong> ${sentiment.label}</p>
+                    <p><strong>Confidence:</strong> ${(sentiment.confidence * 100).toFixed(1)}%</p>
+                    <p><strong>Recommendation:</strong> <span class="${sentimentClass}">${data.recommendation.toUpperCase()}</span></p>
+                    <p><strong>Text Length:</strong> ${data.text_length} characters</p>
+                    <p><strong>Analysis Time:</strong> ${new Date(data.timestamp).toLocaleString()}</p>
+                `;
+                
+                resultDiv.classList.add('show');
+                
+            } catch (error) {
+                errorDiv.textContent = `Error: ${error.message}`;
+            } finally {
+                loading.classList.remove('show');
+                button.disabled = false;
+            }
+        }
+        
+        // Allow Enter key to submit
+        document.getElementById('text').addEventListener('keydown', function(e) {
+            if (e.ctrlKey && e.key === 'Enter') {
+                analyzeSentiment();
+            }
+        });
+    </script>
+</body>
+</html> 

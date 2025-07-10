@@ -1,0 +1,45 @@
+2025-07-03 15:36:56,421 - __main__ - INFO - Starting OpalSight scheduler
+2025-07-03 15:36:56,421 - __main__ - INFO - Testing FMP API connection...
+2025-07-03 15:36:56,447 - app - INFO - OpalSight application initialized with production configuration
+2025-07-03 15:36:56,479 - app.services.cache_service - WARNING - Cache service disabled: Redis.__init__() got an unexpected keyword argument 'url'
+2025-07-03 15:39:01,707 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-03 15:39:03,246 - app.services.fmp_client - INFO - API call to profile/AAPL: success (Total calls: 1)
+2025-07-03 15:39:03,248 - app.services.fmp_client - ERROR - Request error for profile/AAPL: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/AAPL?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-03 15:39:03,250 - app.services.fmp_client - INFO - API call to profile/AAPL: failed (Total calls: 1)
+2025-07-03 15:39:03,251 - app.services.fmp_client - ERROR - Failed to fetch company profile for AAPL: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/AAPL?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-03 15:39:03,252 - __main__ - ERROR - FMP API connection failed
+2025-07-03 15:39:03,257 - __main__ - ERROR - Cannot start scheduler - API connection failed
+2025-07-03 15:41:04,659 - __main__ - INFO - Starting OpalSight scheduler
+2025-07-03 15:41:04,660 - __main__ - INFO - Testing FMP API connection...
+2025-07-03 15:41:04,688 - app - INFO - OpalSight application initialized with production configuration
+2025-07-03 15:41:04,716 - app.services.cache_service - INFO - Cache service initialized successfully
+2025-07-03 15:41:11,183 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-03 15:41:12,144 - app.services.fmp_client - INFO - API call to profile/AAPL: success (Total calls: 1)
+2025-07-03 15:41:12,144 - app.services.fmp_client - ERROR - Request error for profile/AAPL: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/AAPL?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-03 15:41:12,144 - app.services.fmp_client - INFO - API call to profile/AAPL: failed (Total calls: 1)
+2025-07-03 15:41:12,145 - app.services.fmp_client - ERROR - Failed to fetch company profile for AAPL: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/AAPL?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-03 15:41:12,145 - __main__ - ERROR - FMP API connection failed
+2025-07-03 15:41:12,149 - __main__ - ERROR - Cannot start scheduler - API connection failed
+2025-07-03 15:44:52,304 - __main__ - INFO - Starting OpalSight scheduler
+2025-07-03 15:44:52,305 - __main__ - INFO - Testing FMP API connection...
+2025-07-03 15:44:52,339 - app - INFO - OpalSight application initialized with production configuration
+2025-07-03 15:44:52,384 - app.services.cache_service - INFO - Cache service initialized successfully
+2025-07-03 15:44:56,521 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-03 15:44:57,379 - app.services.fmp_client - INFO - API call to profile/AAPL: success (Total calls: 1)
+2025-07-03 15:44:57,380 - app.services.fmp_client - ERROR - Request error for profile/AAPL: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/AAPL?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-03 15:44:57,380 - app.services.fmp_client - INFO - API call to profile/AAPL: failed (Total calls: 1)
+2025-07-03 15:44:57,380 - app.services.fmp_client - ERROR - Failed to fetch company profile for AAPL: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/AAPL?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-03 15:44:57,380 - __main__ - ERROR - FMP API connection failed
+2025-07-03 15:44:57,384 - __main__ - ERROR - Cannot start scheduler - API connection failed
+2025-07-03 15:49:11,632 - __main__ - INFO - Starting OpalSight scheduler
+2025-07-03 15:49:11,633 - __main__ - INFO - Testing FMP API connection...
+2025-07-03 15:49:11,659 - app - INFO - OpalSight application initialized with development configuration
+2025-07-03 15:49:11,684 - app.services.cache_service - INFO - Cache service initialized successfully
+2025-07-03 15:50:21,991 - app.services.sentiment_analyzer - INFO - FinBERT initialized successfully
+2025-07-03 15:50:22,309 - app.services.fmp_client - DEBUG - Making request to https://financialmodelingprep.com/v3/profile/AAPL
+2025-07-03 15:50:22,860 - app.services.fmp_client - INFO - API call to profile/AAPL: success (Total calls: 1)
+2025-07-03 15:50:22,860 - app.services.fmp_client - ERROR - Request error for profile/AAPL: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/AAPL?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-03 15:50:22,860 - app.services.fmp_client - INFO - API call to profile/AAPL: failed (Total calls: 1)
+2025-07-03 15:50:22,860 - app.services.fmp_client - ERROR - Failed to fetch company profile for AAPL: Request failed: 404 Client Error: Not Found for url: https://site.financialmodelingprep.com/v3/profile/AAPL?apikey=9a835ed8bbff501bf036a6f843d5a6fe
+2025-07-03 15:50:22,861 - __main__ - ERROR - FMP API connection failed
+2025-07-03 15:50:22,864 - __main__ - ERROR - Cannot start scheduler - API connection failed
