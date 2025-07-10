@@ -25,17 +25,19 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy application code
 COPY backend/ .
 
-# Create instance directory for database
-RUN mkdir -p instance
+# Create non-root user first
+RUN useradd -m -u 1000 opalsight
+
+# Create instance directory with proper permissions
+RUN mkdir -p instance && chown -R opalsight:opalsight /app
+
+# Switch to non-root user
+USER opalsight
 
 # Set environment variables
 ENV FLASK_ENV=production
 ENV PYTHONPATH=/app
 ENV PORT=8000
-
-# Create non-root user
-RUN useradd -m -u 1000 opalsight && chown -R opalsight:opalsight /app
-USER opalsight
 
 # Expose port
 EXPOSE 8000
