@@ -23,21 +23,24 @@ def health_check():
         # Check database connection
         db.session.execute(text('SELECT 1'))
         db_status = 'healthy'
-    except:
-        db_status = 'unhealthy'
+    except Exception as e:
+        db_status = f'unhealthy: {str(e)}'
     
     # Check cache connection
     if cache.enabled:
         try:
             cache.redis_client.ping()
             cache_status = 'healthy'
-        except:
-            cache_status = 'unhealthy'
+        except Exception as e:
+            cache_status = f'unhealthy: {str(e)}'
     else:
         cache_status = 'disabled'
     
+    # Determine overall status
+    overall_status = 'healthy' if db_status == 'healthy' else 'degraded'
+    
     return jsonify({
-        'status': 'healthy' if db_status == 'healthy' else 'degraded',
+        'status': overall_status,
         'timestamp': datetime.utcnow().isoformat(),
         'services': {
             'database': db_status,

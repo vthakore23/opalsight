@@ -46,9 +46,14 @@ def create_app(config_name=None):
     # Register error handlers
     register_error_handlers(app)
     
-    # Create database tables
+    # Create database tables (with error handling)
     with app.app_context():
-        db.create_all()
+        try:
+            db.create_all()
+            app.logger.info("Database tables created successfully")
+        except Exception as e:
+            app.logger.warning(f"Could not create database tables: {str(e)}")
+            app.logger.info("Application will continue without database for now")
     
     return app
 
@@ -83,7 +88,10 @@ def register_error_handlers(app):
     
     @app.errorhandler(500)
     def internal_error(error):
-        db.session.rollback()
+        try:
+            db.session.rollback()
+        except:
+            pass  # If database isn't available, just continue
         return {'error': 'Internal server error'}, 500
     
     @app.errorhandler(Exception)

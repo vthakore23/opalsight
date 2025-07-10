@@ -16,10 +16,19 @@ class Config:
     DEBUG = False
     TESTING = False
     
-    # Database - Default to SQLite for easy deployment
+    # Database - Use absolute path for SQLite with fallback to in-memory
+    db_dir = os.path.join(os.getcwd(), 'instance')
+    if not os.path.exists(db_dir):
+        try:
+            os.makedirs(db_dir, exist_ok=True)
+        except:
+            pass  # If we can't create the directory, fall back to in-memory
+    
+    db_path = os.path.join(db_dir, 'opalsight.db') if os.path.exists(db_dir) else ':memory:'
+    
     SQLALCHEMY_DATABASE_URI = os.getenv(
         'DATABASE_URL',
-        'sqlite:///instance/opalsight.db'
+        f'sqlite:///{db_path}'
     )
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     SQLALCHEMY_ENGINE_OPTIONS = {
